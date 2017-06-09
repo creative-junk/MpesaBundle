@@ -1,0 +1,3 @@
+crysoft_mpesa_homepage:
+    path:     /mpesa
+    defaults: { _controller: CrysoftMpesaBundle:Default:index }

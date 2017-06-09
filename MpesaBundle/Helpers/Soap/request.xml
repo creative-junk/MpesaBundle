@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="tns:ns" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">
+    <soapenv:Header>
+        <tns:CheckOutHeader>
+            <MERCHANT_ID>CM_PAYBILL</MERCHANT_ID>
+            <PASSWORD>CM_PASSWORD</PASSWORD>
+            <TIMESTAMP>CM_TIMESTAMP</TIMESTAMP>
+        </tns:CheckOutHeader>
+    </soapenv:Header>
+    <soapenv:Body>
+        <tns:processCheckOutRequest>
+            <MERCHANT_TRANSACTION_ID>CM_TRANS_ID</MERCHANT_TRANSACTION_ID>
+            <REFERENCE_ID>CM_REF_ID</REFERENCE_ID>
+            <AMOUNT>CM_AMOUNT</AMOUNT>
+            <MSISDN>CM_NUMBER</MSISDN>
+            <ENC_PARAMS></ENC_PARAMS>
+            <CALL_BACK_URL>CM_CALLBACK_URL</CALL_BACK_URL>
+            <CALL_BACK_METHOD>CM_CALLBACK_METHOD</CALL_BACK_METHOD>
+            <TIMESTAMP>CM_TIMESTAMP</TIMESTAMP>
+        </tns:processCheckOutRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
