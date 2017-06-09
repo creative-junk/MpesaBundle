@@ -11,7 +11,7 @@ The C2B API handles customer validation and authentication via USSD push.
 The customer then confirms the transaction.  
 
 ## Requirements
- - PHP 5.5 or above
+ - PHP 5.6 or above
  - Symfony 2.6 or above
  
 ## Installation
